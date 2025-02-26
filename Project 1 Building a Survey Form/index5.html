@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>A Survey Form</title>
+    <link rel="stylesheet" href="styles5.html">
 </head>
 <body>
-    
+    <h1 id="title">A Survey Form</h1>
+    <p id="description">A survey form to collect feedback from users</p>
+    <form id="survey-form">
+        <label id="name-label">Enter your name: <input id="name" type="text" required placeholder="Write your name here"></label>
+        <label id="email-label">Enter your email: <input id="email" type="email" required placeholder="example@gmail.com"></label>
+        <label id="number-label">Enter your age: <input id="number" type="number" min="18" max="100" placeholder="Insert your age"></label>
+        <select id="dropdown">
+            <option value="1"></option>
+            <option value="2"></option>
+        </select>
+        <input name="radio-attribute" type="radio" checked>
+        <input name="radio-attribute" type="radio">
+        <input type="checkbox" value="3">
+        <input type="checkbox" value="4">
+        <input type="checkbox" value="5">
+        <textarea></textarea>
+        <button type="submit" id="submit"></button>
+    </form>
 </body>
 </html>
