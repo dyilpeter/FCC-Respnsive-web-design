@@ -1,0 +1,14 @@
+/* Default styles (for larger screens) */
+body {
+    font-size: 18px;
+    background-color: white;
+  }
+  
+  /* Media query for smaller screens (max-width: 600px) */
+  @media (max-width: 600px) {
+    body {
+      font-size: 16px;
+      background-color: lightgray;
+    }
+  }
+  
